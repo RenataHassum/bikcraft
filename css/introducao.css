@@ -1,18 +1,18 @@
 .introducao-bg {
   background-color: #000000;
-  box-shadow: inset 0 -120px #ffffff;
+  box-shadow: inset 0 -200px #ffffff;
 }
 
 .introducao {
-
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
 }
 
 .introducao-conteudo {
+  padding-top: 200px;
   align-self: end;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
 }
 
 .introducao h1 {
@@ -40,7 +40,6 @@
   align-self: end;
 }
 
-
 @media (max-width: 1200px) {
   .introducao-conteudo h1 {
     font-size: 3rem;
@@ -50,14 +49,26 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .introducao-bg {
+    box-shadow: inset 0 -280px #ffffff;
+  }
+  .introducao-conteudo {
+    padding-top: 200px;
+    padding-bottom: 330px;
+  }
+  .introducao-img {
+    height: 90%;
+  }
+}
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .introducao-bg {
     background-color: #111111;
   }
 
   .introducao-conteudo {
-    padding-top: 40px;
+    padding-top: 160px;
     padding-bottom: 30px;
   }
 
@@ -66,7 +77,7 @@
     padding-bottom: 20px;
   }
   .introducao-conteudo p {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
   }
 
   .introducao {
@@ -80,7 +91,7 @@
 }
 
 .introducao-bg {
-  box-shadow: inset 0 -100px #ffffff;
+  box-shadow: inset 0 -110px #ffffff;
 }
 
   .introducao .botao {
