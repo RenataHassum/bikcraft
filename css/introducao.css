@@ -100,10 +100,9 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .introducao-conteudo h1 {
     padding-top: 40px;
-
   }
 
   .introducao-bg {
