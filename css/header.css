@@ -47,7 +47,7 @@
   }
 
   .header-menu li {
-    background: linear-gradient(#111111, #222222);
+    background: linear-gradient(#222222, #111111);
     border-radius: 5px;
   }
 }
