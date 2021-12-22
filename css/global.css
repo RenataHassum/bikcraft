@@ -1,0 +1,102 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body, h1, h2, h3, h4, blockquote, span, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 100%;
+  display: block;
+}
+
+.header-bg {
+  grid-area: header-bg;
+}
+
+.introducao-bg {
+  grid-area: introducao-bg;
+}
+
+.lista-bicicletas {
+  grid-area: lista-bicicletas;
+}
+
+.tecnologia {
+  grid-area: tecnologia;
+}
+
+.parceiros {
+  grid-area: parceiros;
+}
+
+.depoimento {
+  grid-area: depoimento;
+}
+
+.seguros {
+  grid-area: seguros;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.estrutura {
+  display: grid;
+  grid-template-columns: 2fr;
+
+  grid-template-areas: 
+  "header-bg header-bg"
+  "introducao-bg introducao-bg"
+  "lista-bicicletas lista-bicicletas"
+  "tecnologia tecnologia"
+  "parceiros parceiros"
+  "depoimento depoimento"
+  "seguros seguros"
+  "footer footer"
+  ;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  color: #332200;
+  display:inline-block;
+  max-width: max-content;
+  cursor: pointer;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
