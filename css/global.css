@@ -57,7 +57,7 @@ img {
 
 .estrutura {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 3fr;
 
   grid-template-areas: 
   "header-bg header-bg"
