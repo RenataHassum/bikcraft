@@ -53,6 +53,13 @@
 }
 
 
+@media (max-width: 550px) {
+  .header {
+    justify-content: center;
+  }
+}
+
+
 
 
 
