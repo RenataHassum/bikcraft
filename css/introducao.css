@@ -1,6 +1,6 @@
 .introducao-bg {
   background-color: #000000;
-  box-shadow: inset 0 -160px #ffffff;
+  box-shadow: inset 0 -120px #ffffff;
 }
 
 .introducao {
@@ -52,9 +52,10 @@
   line-height: 1.5;
 }
 
-.introducao-img {
+.introducao-img img {
   grid-column: 2;
   object-fit: cover;
+  width: 100%;
   height: 100%;
   align-self: end;
 }
@@ -65,19 +66,6 @@
   }
   .introducao-conteudo p {
     font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 1100px) {
-  .introducao-bg {
-    box-shadow: inset 0 -120px #ffffff;
-  }
-  .introducao-conteudo {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .introducao-img {
-    height: 90%;
   }
 }
 
