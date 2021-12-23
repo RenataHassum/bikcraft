@@ -81,9 +81,10 @@ img {
 }
 
 .botao {
+  font-family: 'Roboto', sans-serif;
   color: #332200;
   display:inline-block;
-  max-width: max-content;
+  max-width: 100%;
   cursor: pointer;
   padding: 16px 32px;
   text-transform: uppercase;
