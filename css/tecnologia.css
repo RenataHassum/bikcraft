@@ -117,6 +117,10 @@
 }
 
 @media (max-width: 700px) {
+  .tecnologia {
+    gap: 0px;
+  }
+
   .tecnologia-conteudo h2 {
     line-height: 0.7;
   }
