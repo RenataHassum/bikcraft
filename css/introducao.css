@@ -1,6 +1,6 @@
 .introducao-bg {
   background-color: #000000;
-  box-shadow: inset 0 -200px #ffffff;
+  box-shadow: inset 0 -160px #ffffff;
 }
 
 .introducao {
@@ -12,7 +12,26 @@
 .introducao-conteudo {
   padding-top: 200px;
   align-self: end;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
+}
+
+/* animação */
+ .introducao-conteudo {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: slide 2.8s forwards;
+}
+
+.introducao img {
+  opacity: 0;
+  animation: slide 1.5s forwards;
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .introducao h1 {
@@ -51,7 +70,7 @@
 
 @media (max-width: 1100px) {
   .introducao-bg {
-    box-shadow: inset 0 -280px #ffffff;
+    box-shadow: inset 0 -210px #ffffff;
   }
   .introducao-conteudo {
     padding-top: 200px;
@@ -62,7 +81,7 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .introducao-bg {
     background-color: #111111;
   }
