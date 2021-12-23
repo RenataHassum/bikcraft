@@ -6,7 +6,7 @@
   display: flex;
   gap: 30px;
   padding-bottom: 30px;
-  overflow-x: auto;
+  overflow-x:scroll;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
@@ -49,6 +49,14 @@
   margin-top: 15px;
   margin-left: -28px;
 }
+
+.bicicletas-lista img:hover {
+  opacity: .8;
+}
+.bicicletas-lista h3:hover {
+  opacity: .8;
+}
+
 
 @keyframes seta {
   from {
