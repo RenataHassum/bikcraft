@@ -53,7 +53,6 @@
 
 .bicicletas-lista img:hover {
   opacity: .8;
-  min-width: 290px;
 }
 .bicicletas-lista h3:hover {
   opacity: .8;
