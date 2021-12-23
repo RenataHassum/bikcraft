@@ -14,6 +14,7 @@
 .bicicletas-lista img {
   min-width: 280px;
   flex: 1;
+  transition: 0.3s;
 }
 
 .bicicletas-lista h2 {
@@ -52,6 +53,7 @@
 
 .bicicletas-lista img:hover {
   opacity: .8;
+  min-width: 290px;
 }
 .bicicletas-lista h3:hover {
   opacity: .8;
