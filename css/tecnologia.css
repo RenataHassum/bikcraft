@@ -125,6 +125,10 @@
   .tecnologia-conteudo p {
     line-height: 1.5;
   }
+
+  .tecnologia-informacoes {
+    padding-top: 50px;
+  }
 }
 
 
