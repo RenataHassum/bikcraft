@@ -108,7 +108,7 @@
 }
 .tecnologia-conteudo p {
   font-size: 1.125rem;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .tecnologia-informacoes h3 {
   font-size: 1.125rem;
@@ -116,7 +116,6 @@
 }
 .tecnologia-informacoes p {
   font-size: 1rem;
-
 }
 }
 
