@@ -1,14 +1,14 @@
-.bicicletas-lista {
+/* .bicicletas-lista {
   position: relative;
-}
+} */
 
 .bicicletas-lista ul {
   display: flex;
   gap: 30px;
   padding-bottom: 30px;
-  overflow-x:scroll;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-x: auto;
+  /* -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 
 .bicicletas-lista img {
