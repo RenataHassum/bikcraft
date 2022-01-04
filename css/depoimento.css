@@ -1,0 +1,81 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  background-color: #ffbb00;
+}
+
+.depoimento img {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.depoimento-texto {
+  padding: 40px 40px 80px 80px;
+  position: relative;
+}
+
+/* ATENÇÃO FAZER BEFORE / AFTER JUNTOS SE NÃO, NÃO DÁ CERTO.
+.depoimento p::before,
+.depoimento p::after {
+  display: block;
+  color: #E4A30B;
+  font-size: 5rem;
+  position: absolute;
+}
+
+.depoimento p::before{
+  content: "“";
+  left: 25px;
+  top: 10px;
+}
+.depoimento p::after {
+  content: "”";
+  left: 160px;
+  bottom: 60px;
+} */
+
+.depoimento p {
+  padding-bottom: 30px;
+  font-size: 2rem;
+  font-style: italic;
+  color: #332200;
+}
+
+.depoimento span {
+  font-size: 1.125rem;
+  font-style:normal;
+  color: #332200;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
+
+@media (max-width: 1070px) {
+
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .depoimento img {
+    max-height: 200px;
+  }
+  .depoimento-texto {
+    padding: 40px 20px;
+    margin: auto;
+  }
+
+  .depoimento-texto p {
+    font-size: 1.5rem;
+  }
+}
+
