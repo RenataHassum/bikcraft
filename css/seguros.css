@@ -161,5 +161,8 @@
   .seguros-lista {
     grid-template-columns: 1fr;
   }
+  .seguro-ouro {
+    order: -1;
+  }
   
 }
