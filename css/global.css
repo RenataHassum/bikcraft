@@ -13,7 +13,7 @@ li {
 }
 
 a {
-  color: #ffffff;
+  color: inherit;
   display: block;
   text-decoration: none;
 }
