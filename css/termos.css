@@ -1,0 +1,16 @@
+.termos-condicoes {
+  padding: 80px 20px;
+}
+
+.termos-condicoes h2:nth-child(1) {
+  margin-top: 0px;
+}
+.termos-condicoes h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.termos-condicoes p {
+  line-height: 1.5;
+  margin-bottom: 24px;
+  max-width: 75ch;
+}

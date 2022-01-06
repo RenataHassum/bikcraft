@@ -59,7 +59,7 @@ img {
 .estrutura {
   display: grid;
   grid-template-columns: 3fr;
-
+  
   grid-template-areas: 
   "header-bg header-bg"
   "introducao-bg introducao-bg"
@@ -106,16 +106,18 @@ img {
 /* titulo */
 .titulo-bg {
   background-color: #111111;
+  
 }
 
 .titulo {
-  padding: 60px 0px;
+  padding: 150px 20px 60px 20px;
 }
 
 .titulo p {
   font-size: 1.5rem;
   color: #b2b2b2;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 .titulo h1 {
@@ -142,7 +144,7 @@ img {
 
 @media (max-width: 800px) {
   .titulo {
-    padding: 40px 0px;
+    padding: 130px 20px 40px 20px;
   }
   
   .titulo p {
@@ -155,5 +157,11 @@ img {
   }
   .titulo span {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .titulo {
+    padding: 180px 20px 40px 20px;
   }
 }
