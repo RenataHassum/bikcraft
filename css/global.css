@@ -102,3 +102,58 @@ img {
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+/* titulo */
+.titulo-bg {
+  background-color: #111111;
+}
+
+.titulo {
+  padding: 60px 0px;
+}
+
+.titulo p {
+  font-size: 1.5rem;
+  color: #b2b2b2;
+  text-transform: uppercase;
+}
+
+.titulo h1 {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.titulo span {
+  font-size: 4rem;
+  color: #ffbb00;
+}
+
+@media (max-width: 1200px) {
+  .titulo p {
+    font-size: 1.125rem;
+  }
+  
+  .titulo h1 {
+    font-size: 3rem;
+  }
+  .titulo span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    padding: 40px 0px;
+  }
+  
+  .titulo p {
+    font-size: 1rem;
+    text-transform: initial;
+  }
+  
+  .titulo h1 {
+    font-size: 2rem;
+  }
+  .titulo span {
+    font-size: 2rem;
+  }
+}

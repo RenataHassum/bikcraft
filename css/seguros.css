@@ -4,11 +4,11 @@
   padding: 60px 20px;
 }
 
-.seguros-titulo {
+.seguros h2 {
   font-size: 4rem;
-  padding: 30px 20px;
+  padding: 0px 20px;
 }
-.seguros-titulo span {
+.seguros span {
   color: #ffbb00;
   font-size: 4rem;
 }
@@ -35,6 +35,7 @@
   padding: 32px 32px 32px 60px;
   background-color: #000000;
   line-height: 1.4;
+  border-radius: 5px;
 }
 
 .seguro-prata h3 {
@@ -105,6 +106,7 @@
   padding: 32px 32px 32px 60px;
   background-color: #000000;
   line-height: 1.4;
+  border-radius: 5px;
 }
 
 .seguro-ouro h3 {
@@ -152,10 +154,12 @@
 }
 
 @media (max-width: 1200px) {
-  .seguros-titulo {
+  .seguros h2 {
     font-size: 3rem;
+    padding: 0px 0px;
   }
-  .seguros-titulo span {
+  
+  .seguros span {
     font-size: 3rem;
   }
 }
@@ -170,17 +174,21 @@
   .seguros {
     padding: 30px 20px;
   }
-
+  
+  .seguros h2 {
+    padding-bottom: 30px;
+  }
+  
   .seguros-lista {
     grid-template-columns: 1fr;
   }
   .seguro-ouro {
     order: -1;
   }
-  .seguros-titulo {
+  .seguros h2 {
     font-size: 2rem;
   }
-  .seguros-titulo span {
+  .seguros span {
     font-size: 2rem;
   }
 }
