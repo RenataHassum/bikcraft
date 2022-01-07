@@ -1,0 +1,170 @@
+.seguros-2 {
+  padding: 0px 20px 60px;
+}
+
+.seguros-lista-2 {
+  align-items: center;
+}
+
+.seguros-vantagens-bg {
+background-color: #000000;
+padding: 60px 20px;
+}
+
+.seguros-vantagens-bg h2 {
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+.seguros-vantagens-bg span {
+  color: #ffbb00;
+}
+
+.seguros-conteudo img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+.seguros-conteudo h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.seguros-conteudo p {
+  font-size: 1rem;
+  color: #b2b2b2;
+  font-weight: 400;
+  max-width: 35ch;
+  line-height: 1.4;
+}
+.seguros-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 70px;
+}
+
+.seguros-perguntas {
+  padding: 60px 20px;
+}
+.seguros-perguntas h2 {
+  font-size: 4rem;
+  color: #111111;
+  margin-bottom: 40px;
+}
+
+.seguros-perguntas-details {
+  padding: 20px 20px 20px 40px;
+  max-width: 70ch;
+  border-radius: 5px;
+}
+
+.seguros-perguntas-details:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+/* não deu certo */
+/* summary::-webkit-details-marker {
+  display: none;
+} */
+
+summary {
+  list-style-type: "";
+}
+
+.seguros-perguntas-details summary {
+  color: #404040;
+  font-size: 1.125rem;
+  font-weight: 700;
+  position: relative;
+  
+}
+.seguros-perguntas p {
+  font-size: 1rem;
+  color: #404040;
+  max-width: 80ch;
+  line-height: 1.4;
+  padding: 16px 0px 0px 20px;
+}
+
+.seguros-perguntas-details summary::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 14px;
+  height: 6px;
+  right: 10px;
+  background-image: url(.././img/icones/seta-abrir.svg);
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  /* animation: perguntas 4s forwards; */
+  /* animation: perguntas 3s ease-in-out 0s infinite alternate; */
+}
+
+.seguros-perguntas-details summary:hover::after {
+transform: rotate(0deg);
+transition: 0.4s;
+}
+
+.seguros-perguntas-details summary::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  top: 7px;
+  left: -23px;
+background-color: #ffbb00;
+}
+
+/* @keyframes perguntas {
+  from {
+opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+    content: "X";
+  }
+} */
+
+@media (max-width: 1200px) {
+  .seguros-vantagens-bg h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .seguros-perguntas h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .seguros-conteudo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .seguros-vantagens-bg h2 {
+    font-size: 2rem;
+  }
+  .seguros-perguntas h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .seguros-conteudo {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .seguros-2 {
+    padding: 0px 20px 40px;
+  }
+  .seguros-vantagens-bg {
+    padding: 40px 20px;
+    }
+    .seguros-perguntas {
+      padding: 30px 20px;
+    }
+    .seguros-perguntas h2 {
+      margin-bottom: 20px;
+    }
+}

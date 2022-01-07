@@ -145,7 +145,7 @@
 .bicicletas-comprar-lista h3:hover::before {
   width: 24px;
 }
- 
+
 .bicicletas-comprar-seguro-bg {
   background-color: #111111;
   display: grid;
