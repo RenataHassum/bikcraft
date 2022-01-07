@@ -115,7 +115,7 @@ img {
 }
 
 .titulo p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #b2b2b2;
   text-transform: uppercase;
   padding-bottom: 5px;
@@ -130,11 +130,7 @@ img {
   color: #ffbb00;
 }
 
-@media (max-width: 1200px) {
-  .titulo p {
-    font-size: 1.125rem;
-  }
-  
+@media (max-width: 1200px) {  
   .titulo h1 {
     font-size: 3rem;
   }
