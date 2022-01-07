@@ -1,6 +1,5 @@
 .bicicletas-comprar-bg {
   background-color: #111111;
-  padding-bottom: 60px;
 }
 
 .bicicletas-comprar {
@@ -8,7 +7,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: start;
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -43,7 +41,7 @@
   margin-bottom: 40px;
 }
 
-.bicicletas-comprar-detalhes button {
+.bicicletas-comprar-detalhes a {
   grid-row: 1 / 4;
   place-self: start;
 }
@@ -129,7 +127,7 @@
 }
 
 .bicicletas-comprar-lista {
-  padding: 60px 20px 120px;
+  padding: 30px 20px 40px;
 }
 
 .bicicletas-comprar-lista h3::before {
@@ -147,7 +145,7 @@
 .bicicletas-comprar-lista h3:hover::before {
   width: 24px;
 }
-
+ 
 .bicicletas-comprar-seguro-bg {
   background-color: #111111;
   display: grid;
@@ -199,6 +197,7 @@ align-self: center;
 }
 
 @media (max-width: 1060px){
+
   .bicicletas-comprar-seguro-bg {
     grid-template-columns: 1fr;
   }

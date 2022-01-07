@@ -17,26 +17,6 @@
   position: relative;
 }
 
-/* ATENÇÃO FAZER BEFORE / AFTER JUNTOS SE NÃO, NÃO DÁ CERTO.
-.depoimento p::before,
-.depoimento p::after {
-  display: block;
-  color: #E4A30B;
-  font-size: 5rem;
-  position: absolute;
-}
-
-.depoimento p::before{
-  content: "“";
-  left: 25px;
-  top: 10px;
-}
-.depoimento p::after {
-  content: "”";
-  left: 160px;
-  bottom: 60px;
-} */
-
 .depoimento p {
   padding-bottom: 30px;
   font-size: 2rem;
