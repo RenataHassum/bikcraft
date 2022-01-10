@@ -59,9 +59,9 @@
   border-radius: 5px;
 }
 
-/* details summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
   display: none;
-} */
+}
 
 summary:focus {
   outline: 0;
@@ -179,6 +179,6 @@ summary {
 
   
 .seguros-perguntas-details:nth-child(even) {
-  background-color:blue;
+  background-color:crimson;
 }
 }
