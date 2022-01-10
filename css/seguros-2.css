@@ -176,9 +176,4 @@ summary {
   .seguros-perguntas-details summary:hover::after {
     transform: rotate(180deg);
   }
-
-  
-.seguros-perguntas-details:nth-child(even) {
-  background-color:crimson;
-}
 }
