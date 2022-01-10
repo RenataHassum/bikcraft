@@ -63,14 +63,19 @@ padding: 60px 20px;
   background-color: #f7f7f7;
 }
 
-/* não deu certo */
-/* summary::-webkit-details-marker {
-  display: none;
-} */
 
-summary {
-  list-style-type: "";
+details summary::-webkit-details-marker {
+  display: none;
 }
+
+ summary {
+  list-style-type: "";
+  outline: none;
+}
+
+    summary:focus {
+      outline: 0;
+    }
 
 .seguros-perguntas-details summary {
   color: #404040;
