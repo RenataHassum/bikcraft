@@ -59,17 +59,17 @@
   border-radius: 5px;
 }
 
-details summary::-webkit-details-marker {
+/* details summary::-webkit-details-marker {
   display: none;
-}
-
-/* summary:focus {
-  outline: 0;
 } */
+
+summary:focus {
+  outline: 0;
+}
 
 summary {
   list-style-type: "";
-  outline: none;
+  /* outline: none; */
 }
 
 .seguros-perguntas-details:nth-child(even) {
