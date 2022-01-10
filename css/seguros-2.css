@@ -7,8 +7,8 @@
 }
 
 .seguros-vantagens-bg {
-background-color: #000000;
-padding: 60px 20px;
+  background-color: #000000;
+  padding: 60px 20px;
 }
 
 .seguros-vantagens-bg h2 {
@@ -59,37 +59,35 @@ padding: 60px 20px;
   border-radius: 5px;
 }
 
-.seguros-perguntas-details:nth-child(even) {
-  background-color: #f7f7f7;
-}
-
-
-details summary::-webkit-details-marker {
+/* details summary::-webkit-details-marker {
   display: none;
-}
+} */
 
- summary {
+/* summary:focus {
+  outline: 0;
+} */
+
+summary {
   list-style-type: "";
   outline: none;
 }
 
-    summary:focus {
-      outline: 0;
-    }
+.seguros-perguntas-details:nth-child(even) {
+  background-color: #f7f7f7;
+}
 
 .seguros-perguntas-details summary {
   color: #404040;
   font-size: 1.125rem;
   font-weight: 700;
   position: relative;
-  
 }
 .seguros-perguntas p {
   font-size: 1rem;
   color: #404040;
   max-width: 80ch;
   line-height: 1.4;
-  padding: 16px 0px 0px 20px;
+  padding: 16px 16px 0px 20px;
 }
 
 .seguros-perguntas-details summary::after {
@@ -98,7 +96,7 @@ details summary::-webkit-details-marker {
   position: absolute;
   width: 14px;
   height: 6px;
-  right: 10px;
+  right: -5px;
   background-image: url(.././img/icones/seta-abrir.svg);
   background-repeat: no-repeat;
   transform: rotate(180deg);
@@ -107,8 +105,8 @@ details summary::-webkit-details-marker {
 }
 
 .seguros-perguntas-details summary:hover::after {
-transform: rotate(0deg);
-transition: 0.4s;
+  transform: rotate(0deg);
+  transition: 0.4s;
 }
 
 .seguros-perguntas-details summary::before {
@@ -119,12 +117,12 @@ transition: 0.4s;
   height: 8px;
   top: 7px;
   left: -23px;
-background-color: #ffbb00;
+  background-color: #ffbb00;
 }
 
 /* @keyframes perguntas {
   from {
-opacity: 100%;
+    opacity: 100%;
   }
   to {
     opacity: 0%;
@@ -165,11 +163,17 @@ opacity: 100%;
   }
   .seguros-vantagens-bg {
     padding: 40px 20px;
-    }
-    .seguros-perguntas {
-      padding: 30px 20px;
-    }
-    .seguros-perguntas h2 {
-      margin-bottom: 20px;
-    }
+  }
+  .seguros-perguntas {
+    padding: 30px 20px;
+  }
+  .seguros-perguntas h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .seguros-perguntas-details summary:hover::after {
+    transform: rotate(180deg);
+  }
 }
