@@ -1,3 +1,11 @@
-body {
-  background-color: blue;
+.contato-infos {
+  background-color: #000000;
+  color: #cccccc;
+}
+.contato-infos a {
+  font-style: normal;
+}
+
+.contato-infos a:hover {
+  color: #ffffff;
 }
