@@ -69,7 +69,7 @@ summary:focus {
 
 summary {
   list-style-type: "";
-  /* outline: none; */
+  outline: none;
 }
 
 .seguros-perguntas-details:nth-child(even) {
@@ -179,6 +179,6 @@ summary {
 
   
 .seguros-perguntas-details:nth-child(even) {
-  background-color:aquamarine;
+  background-color:blue;
 }
 }
