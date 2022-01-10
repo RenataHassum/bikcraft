@@ -59,9 +59,9 @@
   border-radius: 5px;
 }
 
-/* details summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
   display: none;
-} */
+}
 
 /* summary:focus {
   outline: 0;
@@ -96,7 +96,7 @@ summary {
   position: absolute;
   width: 14px;
   height: 6px;
-  right: -5px;
+  right: -12px;
   background-image: url(.././img/icones/seta-abrir.svg);
   background-repeat: no-repeat;
   transform: rotate(180deg);
