@@ -1,11 +1,173 @@
-.contato-infos {
-  background-color: #000000;
-  color: #cccccc;
-}
-.contato-infos a {
-  font-style: normal;
+.contato {
+  background: linear-gradient(to bottom, #111111 50%, #f7f7f7 50%);
 }
 
-.contato-infos a:hover {
+.container-cols {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+
+}
+
+.contato-cols {
+  border-radius: 5px 0px 0px 5px;
+  background-color: #000000;
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+.contato-enderecos {
+  color: #cccccc;
+}
+.contato-enderecos > p {
+  font-size: 1.125rem;
+  margin-bottom: 80px;
+}
+.contato-enderecos a {
+  font-style: normal;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  line-height: 1.4;
+}
+.contato-enderecos a:hover {
   color: #ffffff;
+}
+.contato-enderecos a:nth-child(3n + 1) {
+  margin-bottom: 8px;
+}
+.contato-enderecos a:nth-child(7) {
+  margin-bottom: 80px;
+}
+.contato-enderecos img {
+  margin-left: -20px;
+  margin-bottom: -23px;
+  width: 24px;
+  height: 24px;
+}
+.contato-redes{
+  display: flex;
+  gap: 32px;
+  padding-top: 25px;
+}
+
+/* FORUMULÁRIO */
+.contato-formulario {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #ffffff;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.contato-formulario label {
+  color: #111111;
+  margin-bottom: 5px;
+  display: block;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+.contato-formulario input,
+textarea {
+  background-color: #f7f7f7;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contato-formulario input[type="text"]:focus,
+.contato-formulario input[type="email"]:focus,
+.contato-formulario textarea:focus {
+  outline: none;
+  border-color: #ffbb00;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.contato-formulario .col-2 {
+  grid-column: span 2;
+}
+
+/* LOJAS LOCAIS */
+.lojas-locais-bg {
+  background-color: #f7f7f7;
+}
+
+.lojas-locais {
+  padding: 60px 20px 360px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.lojas-locais h2 {
+  color: #111111;
+  font-size: 4rem;
+  grid-column: span 2;
+  padding-bottom: 60px;
+}
+
+.lojas-locais span {
+  color: #ffbb00;
+}
+
+.lojas-locais iframe {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.lojas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 10px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+  align-items: center;
+}
+
+.lojas-dados {
+  border-left: 2px solid #ededed;
+  padding-left: 20px;  
+}
+
+.lojas-dados p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.lojas-dados a:nth-child(1) {
+  margin-bottom: 20px;
+}
+.lojas-conteudo h3 {
+  font-size: 2rem;
+  grid-column: span 2;
+}
+
+.lojas-conteudo {
+  color: #595959;
+  font-size: 1rem;
+}
+
+.lojas-conteudo img {
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: -23px;
+}
+
+.lojas-conteudo picture p {
+ margin-left: 25px;
+}
+
+@media (max-width: 1200px) {
+  .lojas-locais h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .lojas-locais h2 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+  }
 }
