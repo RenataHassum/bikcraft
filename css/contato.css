@@ -166,24 +166,45 @@ textarea {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .container-cols {
-    display: grid;
     grid-template-columns: 1fr;
   }
   .contato-formulario {
     grid-template-columns: 1fr;
   }
-  .lojas-locais {
-    grid-template-columns: 1fr;
+  .contato-formulario .col-2 {
+    grid-column: 1;
   }
-  .lojas-conteudo {
-    grid-template-columns: 1fr;
+  .contato-formulario a {
+    max-width: 200px;
+    text-align: center;
   }
+
 }
 @media (max-width: 800px) {
   .lojas-locais h2 {
     font-size: 2rem;
     padding-bottom: 30px;
   }
+  .lojas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .lojas-conteudo h3 {
+    grid-column: 1;
+  }
 }
+
+@media (max-width: 600px) {
+  .lojas-locais {
+  grid-template-columns: 1fr;
+}
+.lojas-locais h2 {
+  grid-column: 1;
+}
+}
+
+
+
+
+
