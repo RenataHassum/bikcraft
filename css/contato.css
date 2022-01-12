@@ -86,6 +86,10 @@ textarea {
   box-shadow: 0 0 0 2px #fea;
 }
 
+.contato-formulario a {
+  text-align: center;
+}
+
 .contato-formulario .col-2 {
   grid-column: span 2;
 }
@@ -178,7 +182,6 @@ textarea {
   }
   .contato-formulario a {
     max-width: 200px;
-    text-align: center;
   }
 
 }
