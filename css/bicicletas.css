@@ -100,7 +100,7 @@
   display: block;
   position: absolute;
   margin-left: 120px;
-  margin-top: -30px;
+  margin-top: -28px;
   font-size: 1.5rem;
   animation: seta 0.5s ease-in-out 0s infinite alternate;
 }
