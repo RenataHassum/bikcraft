@@ -152,12 +152,12 @@
     grid-template-columns: 1fr;
   }
 
-  .bicicletas-conteudo button {
+  .bicicletas-conteudo a {
     margin-top: 20px;
   }
 
-  .bicicletas-conteudo button::after {
-    font-size: 1.2rem;
+  .bicicletas-conteudo a::after {
+    font-size: 1.3rem;
   }
 }
 
