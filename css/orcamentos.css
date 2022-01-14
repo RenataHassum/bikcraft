@@ -4,8 +4,9 @@
 }
 
 .orcamento {
-display: grid;
-grid-template-columns: 2fr 3fr;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 0px 0px 60px 0px ;
 }
 
 .coluna-2 {
@@ -36,6 +37,7 @@ grid-template-columns: 2fr 3fr;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding: 60px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .orcamento-2 {
@@ -60,6 +62,9 @@ grid-template-columns: 2fr 3fr;
   margin-top: 2px;
 }
 
+.orcamento-2 a {
+  text-align: center;
+}
 
 .orcamento-2 label {
   font-size: 1rem;
@@ -86,4 +91,28 @@ grid-template-columns: 2fr 3fr;
   box-shadow: 0 0 0 2px #fea;
 }
 
+
+@media (max-width: 800px) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-2 a {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 600px) {
+  .orcamento-2 {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .coluna-2 {
+    grid-column: 1;
+  }
+  .orcamento {
+    padding: 0px 0px 40px 0px ;
+  }
+}
 
