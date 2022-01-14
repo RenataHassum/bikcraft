@@ -31,7 +31,7 @@
 
 }
 
-.header-menu li::after {
+.header-menu a::after {
   content: "";
   display: block;
   height: 2px;
@@ -41,9 +41,11 @@
   transition: 0.4s;
 }
 
-.header-menu li:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
+
 
 @media (max-width: 800px) {
 
