@@ -150,5 +150,9 @@
     margin-top: 20px;
   }
 
+  .bicicletas-conteudo button::after {
+    font-size: 1.4rem;
+  }
+
 }
 
